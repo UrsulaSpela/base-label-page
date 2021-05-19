@@ -2,4 +2,5 @@
 frontendmentor.io challenge
 
 basic form validation practice
- mobile first design
+
+mobile first design
