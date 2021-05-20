@@ -7,5 +7,5 @@ function validation(){
   if(email.match(pattern)){
     error.style.dispay = "none";
   } else{
-    error.style.dispay = "flex";
+    error.style.dispay = "block";
   }}
