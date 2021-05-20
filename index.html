@@ -21,20 +21,24 @@
 <body>
 <section>
   <div id="left">
-  <div id="logo"></div>
-  <div id="image"> <img src="hero-mobile.jpg" alt=""> </div>
-  <div id="main">
-    <div id="text">
-    <h1 id="span">We're</h1> <h1 id="title">coming soon</h1>
+    <div id="logo"></div>
+    <div id="image"> <img src="hero-mobile.jpg" alt=""> </div>
+    <div id="main">
+      <div id="text">
+      <h1 id="span">We're</h1> <h1 id="title">coming soon</h1>
 
-    <p>Hello fellow shoppers! We're currently building our new fashion store.
-    Add your email below to stay up-to-date with announcements and our launch deals.</p>
-  </div>
-    <div id="input">
-    <input type="email" placeholder="Email Address">
-    <button> <img src="icon-arrow.svg" alt=""> </button>
+      <p>Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
     </div>
-  </div>
+
+      <div id="input">
+        <form name="form" id="form">
+          <input type="text" placeholder="Email Address" id="email" onsubmit="validation()">
+          <button type="submit" id="btn"> <img src="icon-arrow.svg" alt=""> </button>
+        </form>
+        <img src="icon-error.svg" id="error">
+      </div>
+    </div>
 </div>
   <div id="imagedesktop"> <img src="hero-desktop.jpg"> </div>
 </section>
@@ -44,5 +48,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
